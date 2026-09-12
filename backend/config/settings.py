@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Adicione estas linhas:
+    'categorias',     # Seu app de categorias
+    'transacoes',     # Seu app de transacoes
+    'usuarios',       # Seu app de usuarios
 ]
 
 MIDDLEWARE = [
